@@ -89,7 +89,7 @@ function App() {
 
           <a href="#home" className="logo">
             <img
-              src="/logo.jpg"
+              src={`${import.meta.env.BASE_URL}logo.jpg`}
               alt="Ronin Labs Logo"
               className="logo-image"
             />
