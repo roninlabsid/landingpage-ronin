@@ -205,8 +205,8 @@ function App() {
               <li>Proses Cepat 1-3 Jam</li>
               <li>Garansi full 1 Bulan</li>
               <li>Konsultasi Gratis</li>
-              <li>Keamanan Terjamin</li>
-              <li>Dibantu Sampai Aktip</li>
+              <li>Keamanan Data</li>
+             
             </ul>
 
             <a
@@ -239,8 +239,7 @@ function App() {
               <li>Proses 1 X 24 Jam</li>
               <li>Garansi full 3 bulan</li>
               <li>Konsultasi Gratis</li>
-              <li>Keamanan Terjamin</li>
-              <li>Dibantu Sampai Aktip</li>
+              <li>Keamanan Data</li>
             </ul>
 
             <a
@@ -273,8 +272,7 @@ function App() {
               <li>Proses Cepat 1-3 Jam</li>
               <li>Garansi full 3 bulan</li>
               <li>Konsultasi Gratis</li>
-              <li>Keamanan Terjamin</li>
-              <li>Dibantu Sampai Aktip</li>
+              <li>Keamanan Data</li>
             </ul>
 
             <a
