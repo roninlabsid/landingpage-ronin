@@ -1,6 +1,8 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   useEffect(() => {
     // =========================
     // SCROLL REVEAL
@@ -108,8 +110,6 @@ function App() {
 
           <div className="nav-actions">
 
-            
-
             <a
               href="https://wa.me/6285110532962?text=Halo%20Ronin%20Labs,%20saya%20ingin%20Konsultasi%20Jasa%20Unblock%20IMEI"
               target="_blank"
@@ -119,6 +119,55 @@ function App() {
               Hubungi Kami
             </a>
 
+          </div>
+
+          {/* ================= MOBILE MENU ================= */}
+
+          <button
+            type="button"
+            className={`mobile-menu-button ${mobileMenuOpen ? "active" : ""}`}
+            onClick={() => setMobileMenuOpen((open) => !open)}
+            aria-label={mobileMenuOpen ? "Tutup menu" : "Buka menu"}
+            aria-expanded={mobileMenuOpen}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div className={`mobile-nav-menu ${mobileMenuOpen ? "open" : ""}`}>
+            <a
+              href="#build"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Harga Paket
+            </a>
+
+            <a
+              href="#thinking"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Alur Pemesanan
+            </a>
+
+            <a
+              href="https://linktr.ee/roninlabs.id"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Sosial Media
+            </a>
+
+            <a
+              href="https://wa.me/6285110532962?text=Halo%20Ronin%20Labs,%20saya%20ingin%20Konsultasi%20Jasa%20Unblock%20IMEI"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileMenuOpen(false)}
+              className="mobile-contact-link"
+            >
+              Hubungi Kami
+            </a>
           </div>
 
         </nav>
