@@ -240,7 +240,7 @@ function App() {
           <div className="service-card reveal stagger-1">
 
             <span className="service-badge">
-              ◯ &nbsp; PAKET 1 BULAN
+              ◉ &nbsp; PAKET 1 BULAN
             </span>
 
             <div className="service-spacer"></div>
